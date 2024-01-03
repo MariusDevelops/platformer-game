@@ -4,6 +4,7 @@ import java.awt.event.*;
 
 public class GameInputs implements KeyListener, MouseListener, MouseMotionListener {
     private final GameUI gameUI;
+
     public GameInputs(GameUI gameUI) {
         this.gameUI = gameUI;
     }
